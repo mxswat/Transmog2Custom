@@ -1,0 +1,6 @@
+name=Transmog 2.0 Custom
+id=Transmog2Custom
+description=This is the description of Transmog 2.0 Custom.
+require=TransmogV2
+poster=poster.png
+icon=icon.png
