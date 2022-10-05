@@ -1,6 +1,6 @@
-name=Transmog 2.0 Custom
+name=Transmog 2.0 Custom Settings for *Insert Unique Name Here*
 id=Transmog2Custom
-description=This is the description of Transmog 2.0 Custom.
+description=Transmog 2.0 Custom Settings for *Insert Unique Name Here*
 require=TransmogV2
 poster=poster.png
 icon=icon.png

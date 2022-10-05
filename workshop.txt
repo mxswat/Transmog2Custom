@@ -1,5 +1,5 @@
 version=1
-title=Transmog 2.0 Custom Settings
-description=This is the description of Transmog 2.0 Custom.
+title=Transmog 2.0 Custom Settings for *Insert Unique Name Here*
+description=Transmog 2.0 Custom Settings for *Insert Unique Name Here*
 tags=
 visibility=unlisted
