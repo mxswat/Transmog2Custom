@@ -1,3 +1,10 @@
+local isDisabled = false
+
+if isDisabled then
+    -- If is disabled, then disable the button
+    return
+end
+
 local FONT_HGT_SMALL = getTextManager():getFontHeight(UIFont.Small)
 
 require "GenerateTransmog"
@@ -8,9 +15,16 @@ local function onClick()
     local w = getCore():getScreenWidth() / 2 - 350
     local h = getCore():getScreenHeight() / 2 - 300
 
-    local text = "<H1> Custom Transmog generated!  <LINE><LINE> "
+    local text = "<H1> Custom Transmog File Generated! <LINE><LINE> "
 
-    ISModalRichText:new(w, h, 700, 600, text, false);
+    local tmogPopup = ISModalRichText:new(w, h, 700, 100, text, false);
+    tmogPopup:initialise();
+    tmogPopup.backgroundColor = { r = 0, g = 0, b = 0, a = 0.9 };
+    tmogPopup.alwaysOnTop = true;
+    tmogPopup.chatText:paginate();
+    tmogPopup:setY(getCore():getScreenHeight() / 2 - (tmogPopup:getHeight() / 2));
+    tmogPopup:setVisible(true);
+    tmogPopup:addToUIManager();
 end
 
 local old_MainScreen_instantiate = MainScreen.instantiate
