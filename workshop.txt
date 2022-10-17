@@ -1,5 +1,6 @@
+id=2874124930
 version=1
-title=Transmog 2.0 Custom Settings for *Insert Unique Name Here*
-description=Transmog 2.0 Custom Settings for *Insert Unique Name Here*
+title=Transmog 2.0 Custom Settings for Mx Private Server
+description=Transmog 2.0 Custom Settings for Mx Private Server
 tags=
 visibility=unlisted
