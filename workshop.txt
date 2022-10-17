@@ -1,5 +1,5 @@
-id=2874124930
 version=1
+id=2874124930
 title=Transmog 2.0 Custom Settings for Mx Private Server
 description=Transmog 2.0 Custom Settings for Mx Private Server
 tags=
